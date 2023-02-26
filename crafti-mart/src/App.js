@@ -1,19 +1,19 @@
-import TablePaginationDemo from './hooks/Pagination';
-import AllRoutes from './Routes/AllRoutes';
-import Navbar from './Components/Navbar/Navbar';
-import Navlist from './Components/Navlist/Navlist';
-import Footer from './Components/Footer/Footer';
-
-
+// import Home from "./Pages/Home";
+import { Navbar } from "./Components/Navbar/Navbar";
+// import {Curosel} from "./Components/Navbar/Curosel"
+import Footer from "./Components/Footer";
+import './App.css';
+// import SearchComp from './Components/SearchComp';
+import MainRoute from './Route/MainRoute';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Navlist />
-      <AllRoutes />
-      <Footer />
-    </>
+    <div className="App">
+      <Navbar/>
+
+      <MainRoute />
+      <Footer/>
+    </div>
   );
 }
 
