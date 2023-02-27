@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { MdCheckCircle} from "react-icons/md";
 import { useDispatch } from 'react-redux';
-import { getCartData } from '../Redux/CartRedux/action';
+import { getCartData } from '../Hooks/CartHooks/action';
 
 const SingleMobileCard = () => {
   const dispatch = useDispatch();

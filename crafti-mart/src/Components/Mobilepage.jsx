@@ -5,7 +5,7 @@ import { Box, Flex, Grid } from '@chakra-ui/react';
 import MobileSidebar from './MobileSidebar';
 import { useLocation, useSearchParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { getMobiledataFailure, getMobiledataRequest, getMobiledataSuccess } from '../Redux/MobileRedux/action';
+import { getMobiledataFailure, getMobiledataRequest, getMobiledataSuccess } from '../Hooks/MobileHooks/action';
 
 const Mobilepage = () => {
     const location = useLocation();

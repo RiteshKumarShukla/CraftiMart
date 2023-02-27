@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 import { Skeleton } from "@chakra-ui/react";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
-import { getDealdataFailure, getDealdataRequest, getDealdataSuccess } from "../Redux/HomeRedux/action";
+import { getDealdataFailure, getDealdataRequest, getDealdataSuccess } from "../Hooks/HomeHooks/action";
 const DealsOfTheDay = () => {
   const dispatch = useDispatch();
  
