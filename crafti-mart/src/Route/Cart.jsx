@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import ProductinCart from '../Components/ProductinCart';
-import { deleteCartData} from '../Redux/CartRedux/action';
+import { deleteCartData} from '../Hooks/CartHooks/action';
 // import { useParams } from 'react-router-dom';
 
 const Cart = () => {
